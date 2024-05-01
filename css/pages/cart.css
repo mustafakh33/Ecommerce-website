@@ -1,0 +1,217 @@
+/* =============== Cart area =============== */
+.pt-100{
+  padding-top: 100px;
+}
+.pb-100{
+  padding-bottom: 100px;
+}
+.cart .table-content .table{
+    background: #ffffff;
+    border-color: #eaedff;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+.cart .table-content  th {
+  border-bottom: 1px solid #eaedff;
+  border-right: 1px solid #eaedff;
+}
+.cart .table-content  td {
+  border-bottom: 1px solid #eaedff;
+  border-right: 1px solid #eaedff;
+}
+.cart .table-content td {
+  border-top: medium none; 
+  padding: 20px 10px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+.cart .table-content img{
+  width: 125px;
+}
+/*  product-quantity */
+.cart .product-quantityy{
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #dcdcdc;
+  height: 48px;
+  padding: 10px;
+  cursor: pointer;
+  width: fit-content;
+  margin: auto;
+}
+.cart .product-quantityy span{
+   padding: 0 5px;
+   font-weight: 400;
+  text-align: center; 
+  font-size: 18px;
+} 
+ .cart .product-quantity .num2{
+   padding: 0 10px;
+}  
+.cart .table-content .product-name a{
+  color: #201f1f;
+  transition: all 0.5s ease;
+}
+.cart .table-content .product-name a:hover{
+  color: #bc8246;
+}
+.cart .table-content .product-remove i{
+  color: #201f1f;
+  font-size: 18px;
+  cursor: pointer;
+}
+/* coupon */
+.coupon-all{
+  margin-top: 50px;
+}
+.coupon-all .coupon #coupon_code{
+  height: 50px;
+  border: 2px solid #eaedff;
+  padding: 0 15px;
+  margin-right: 10px;
+}
+/* btn */
+.coupon-all{
+  display: flex;
+  justify-content: space-between;
+}
+.coupon-all .coupon .main-btn,
+.coupon-all .coupon2 .main-btn{
+  background-color: #201f1f !important;
+  color: #fff !important;
+}
+
+.cart .card-total{
+  padding-top: 50px;
+}
+.cart .card-total h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.cart .card-total ul{
+  margin-bottom: 20px;
+}
+.cart .card-total li{
+    font-size: 15px;
+    color: #6f7172;
+    padding: 10px 30px;
+    border: 1px solid #eaedff;
+    font-weight: 400;
+}
+/* container2 */
+.pt-50{
+  padding-top: 50px;
+}
+#container2,
+#container1{
+  display: none ;
+}
+.container2 .main-btn{
+  background-color: #201f1f !important;
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .coupon-all{
+    display: block;
+  }
+  .coupon-all .coupon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  /* ====== */
+  .cart .table-content img{
+    width: 100px;
+  }
+   
+.cart .table-content th {
+  font-size: 12px;
+}
+.cart .product-quantityy {
+  font-size: 14px;
+  font-weight: 400;
+  height: 30px;
+  padding: 0px;
+}
+.cart .table-content .product-name a ,
+.cart .table-content .product-price span,
+.cart .table-content .product-subtotal span, 
+.cart .table-content .product-quantityy .num{
+  font-size: 11px;
+}
+}
+
+
+@media (max-width: 550px) {
+  .cart .table-content img{
+    width: 80px;
+  }
+  
+.cart .table-content th {
+  font-size: 10px;
+}
+.cart .product-quantityy {
+  font-size: 14px;
+  font-weight: 400;
+  height: 30px;
+  padding: 0px;
+}
+.cart .table-content .product-name a ,
+.cart .table-content .product-price span,
+.cart .table-content .product-subtotal span, 
+.cart .table-content .product-quantityy .num{
+  font-size: 10px;
+}
+.coupon-all .coupon #coupon_code {
+  height: 40px;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+.coupon-all .coupon .main-btn ,
+.coupon-all .coupon2 .main-btn {
+    height: 40px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-size: 10px;
+}
+.cart .card-total h2{
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.cart .card-total ul{
+margin-bottom: 20px;
+}
+.cart .card-total li{
+  font-size: 12px;
+  padding: 10px 30px;
+}
+.cart .card-total .main-btn {
+  font-weight: 600;
+  height: 45px;
+  line-height: 41px;
+  padding: 0 20px;
+  font-size: 10px;
+} 
+}
+@media (max-width: 425px) {
+  .cart .table-content img{
+    width: 60px;
+  } 
+  .cart .table-content th {
+    padding: 0;
+  }
+  .cart .table-content td {
+    border-top: medium none;
+    padding: 5px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+} 

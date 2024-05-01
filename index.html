@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outstock - Clean, Minimal eCommerce Angular Template</title>
+  <!-- ============ Google font ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- ============ favicon ============ -->
+  <link rel="icon" href="images/favicon.ico">
+  <!-- =============== css file =============== -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- =============== Navbar =============== -->
+  <header class="header" id="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- last links -->
+             <div class="d-flex align-items-center">
+              <div class="search space">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                search
+              </div>
+              <div class="cart space">
+                <a href="cart.html" class="cart">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  cart
+                  (<span id="soppingCount" class="count">0</span>)
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header> 
+  <!-- =============== Hero section =============== -->
+  <section class="splide hero" aria-label="Splide Basic HTML Example">
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <div class="content d-flex align-items-center">
+           <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2>High Beam<br> by Tom Chung</h2>
+                <p>High Beam is an adjustable desk or shelf 
+                  light that offers a wide variety 
+                  of lighting possibilities</p>
+                  <a href="#" class="main-btn">Discover now</a>
+              </div>
+            </div>
+           </div>
+          </div>
+        </li>
+        <li class="splide__slide">
+          <div class="content d-flex align-items-center content1">
+            <div class="container">
+             <div class="row">
+               <div class="col-12">
+                <h2>Handmade <br> Hand carved Coffee</h2>
+                <p>As rich and unique as the coffee beans it is intended for,
+                   this little scoop will make your morning
+                    ritual a special occasion every day.</p>
+                   <a href="#" class="main-btn">Discover now</a>
+               </div>
+             </div>
+            </div>
+           </div>
+        </li>
+        <li class="splide__slide">
+          <div class="content d-flex align-items-center content2">
+            <div class="container">
+             <div class="row">
+               <div class="col-12">
+                <h2>Think Different &amp;<br> Do it otherwise</h2>
+                <p>Claritas est etiam processus dynamicus, 
+                  qui sequitur mutationem consuetudium lectorum.</p>
+                   <a href="#" class="main-btn">Discover now</a>
+               </div>
+             </div>
+            </div>
+           </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- =============== Banner section =============== -->
+   <section class="banner">
+    <div class="container p-3">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="image">
+            <img src="images/banner/banner-sm-1.jpg" alt="">
+            <div class="info">
+              <h5>Lighting &amp; Chair</h5>
+              <a>Discover now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="image">
+            <img src="images/banner/banner-sm-2.jpg" alt="">
+            <div class="info">
+              <h5>Decoration & Accessories</h5>
+              <a>Discover now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="image">
+            <img src="images/banner/banner-sm-3.jpg" alt="">
+            <div class="info">
+              <h5>Clothing & Oil</h5>
+              <a>Discover now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- =============== product section =============== -->
+  <section class="product">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="main-title">
+            <h2>Trending Products</h2>
+            <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 mb-4" id="row1">
+    
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="buttons text-center">
+            <a href="#" class="main-btn">Load More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- =============== Banner2 section =============== -->
+    <section class="banner2">
+      <div class="row g-4" id="row2">
+      </div>
+    </section>
+    <!-- =============== sale section =============== -->
+    <section class="sale">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="main-title">
+              <h2>Sale Off</h2>
+              <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center g-4" id="row3">
+        </div>
+      </div>
+    </section>
+     <!-- =============== client section =============== -->
+     <section class="client">
+      <div class="container">
+        <div class="row justify-content-center g-4">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <img src="images/client-area/client-1.jpg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <img src="images/client-area/client-2.jpg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <img src="images/client-area/client-3.jpg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <img src="images/client-area/client-4.jpg" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <img src="images/client-area/client-5.jpg" alt="">
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- =============== blog section =============== -->
+     <section class="blog-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="main-title">
+              <h2>Our Blog Posts</h2>
+              <p>Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-5" id="row4">
+          
+        </div>
+      </div>
+     </section>
+  <!-- =============== subscribe-area =============== -->
+   <section class="subscribe">
+    <div class="container borderr">
+      <div class="row">
+        <div class="col-12">
+          <div class="main-title">
+            <h2>Get Discount Info</h2>
+            <p>Subscribe to the Outstock mailing list to receive updates on new arrivals,
+               special offers, and other discount information.</p>
+          </div>
+          <div class="subscribe-from text-center">
+            <p>Subscribe to our newsletter...</p>
+          </div>
+          <div class="button text-center">
+            <a href="#" class="main-btn">subscribe</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- =============== footer =============== -->
+   <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="footer1">
+              <a class="logo" href="#"><img src="images/logo-2.png" alt=""></a>
+              <p>Outstock is a premium Templates theme with advanced admin module. It’s extremely customizable,
+                 easy to use and fully responsive and retina ready.</p>
+                 <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i> <span>Add: 1234 Heaven Stress, Beverly Hill, Melbourne, USA.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope-open-text"></i> <span>Email: Contact@basictheme.com</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> <span>Phone Number: (800) 123 456 789</span>
+                  </li>
+                 </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer2">
+              <h5>information</h5>
+              <ul>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Delivery Inforamtion</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Condition</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer2">
+              <h5>Customer Service</h5>
+              <ul>
+                <li>Shipping Policy</li>
+                <li>Help & Contact Us</li>
+                <li>Returns & Refunds</li>
+                <li>Online Stores</li>
+                <li>Terms & Conditions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row justify-content-center ">
+          <div class="col-lg-6">
+            <div class="footer__copyright">
+              <p>Copyright © <a  href="#">Outstock</a>  2024. All Rights Reserved</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="social-media">
+              <ul class="d-flex justify-content-end">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-behance"></i></li>
+                <li><i class="fa-brands fa-dribbble"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </footer>
+   <!-- button -->
+   <div class="fixed-button">
+    <button class="btn-fixed"><i class="fa-solid fa-arrow-turn-up"></i></button>
+   </div>
+  <!-- =============== js =============== -->
+  <script src="js/splide.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/pages/home.js"></script>
+</body>
+</html>

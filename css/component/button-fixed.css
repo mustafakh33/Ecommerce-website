@@ -1,0 +1,16 @@
+.fixed-button .btn-fixed{
+    position: fixed;
+    right: 30px; 
+    bottom: 30px;
+    background: #bc8246;
+    border: 1px solid #bc8246;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    margin-right: 20px;
+    line-height: 40px; 
+    transition: 0.5s ease-in-out;
+    z-index: 199;
+    display: none;
+}

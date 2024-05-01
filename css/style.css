@@ -1,0 +1,29 @@
+/* vender */
+@import url(vender/all.min.css);
+@import url(vender/bootstrap.min.css);
+@import url(vender/splide.min.css);
+/* base */
+@import url(base/base.css);
+@import url(base/font.css);
+
+/* layout */
+@import url(layout/header.css);
+@import url(layout/footer.css);
+
+/* pages */
+@import url(pages/home.css);
+@import url(pages/shop.css);
+@import url(pages/blog.css );
+@import url(pages/contact.css);
+@import url(pages/login.css);
+@import url(pages/Product.css);
+@import url(pages/cart.css);
+
+
+/* component */
+@import url(component/button.css);
+@import url(component/main-title.css);
+@import url(component/button-fixed.css);
+
+/* responsive */
+@import url(responsive/responsive.css);

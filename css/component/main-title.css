@@ -1,0 +1,31 @@
+.main-title{
+  margin-bottom: 55px;
+  text-align: center;
+}
+.main-title h2{
+  position: relative;
+  color: #202020;
+  font: 36px;
+  margin-bottom: 8px;
+}
+.main-title h2::before{
+  content: '';
+  position: absolute;
+  border-top: 1px solid #ebebeb;
+  width: 35%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0%;
+}
+.main-title h2::after{
+  content: '';
+  position: absolute;
+  border-top: 1px solid #ebebeb;
+  width: 35%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0%;
+}
+.main-title p{
+  margin-bottom: 15px;
+}

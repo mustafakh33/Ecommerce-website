@@ -1,0 +1,122 @@
+/* =============== contact section =============== */
+.contact{
+    background-image: url(../../images/contact/page-title-2.jpg);
+    height: 530px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .contact .text h1{
+    font-size: 36px;
+    color: #323232;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.contact .text span{
+    padding: 0 10px;
+    color: #323232;
+}
+.contact .text a{
+    color: #323232;
+}
+/* =============== contact area =============== */
+/* first col-lg-6 */
+.contact-area{
+    padding-bottom: 100px;
+    padding-top: 95px;
+}
+.main-heading{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 52px;
+}
+.contact-area .content ul{
+    margin-bottom: 55px;
+}
+.contact-area .content li{
+    margin-bottom: 35px;
+}
+.contact-area .content .icon{
+    margin-right: 20px;
+}
+.contact-area .content .icon i{
+    font-size: 18px;
+    color: #6c6c6c;
+    width: 53px;
+    height: 53px;
+    line-height: 49px;
+    text-align: center;
+    border: 2px solid #ebebeb;
+    transition: all .3s ease-out 0s;
+}
+.contact-area .content .icon:hover i{
+    color: #fff;
+    background-color: #323232;
+}
+.contact-area .content p{
+    margin-bottom: 55px;
+}
+.contact-area .content .social-media li{
+    margin-right: 42px;
+    font-size: 18px;
+    transition: all .3s ease-out 0s;
+}
+.contact-area .content .social-media li:hover i{
+    color: #bc8246;
+}
+/* second col-lg-6 */
+.contact-area .content form label{
+    color: #333;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.contact-area .content form label span{
+    color: red;
+}
+.contact-area .content form input{
+    height: 50px;
+    border: 1px solid #ececec;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.contact-area .content textarea{
+    height: 180px;
+    resize: none;
+}
+/* =============== map  =============== */
+.map iframe{
+    width: 100%;
+    height: 500px;
+}
+/* =============== discount section =============== */
+.discount{
+    padding-top: 95px;
+    padding-bottom: 100px;
+}
+.discount .discount-text h2{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.discount .discount-text p{
+    padding: 0 60px;
+    margin-bottom: 53px;
+}
+.discount .discount-text form input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #201f1f;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    text-align: center;
+    margin-bottom: 40px;
+    background: transparent;
+}

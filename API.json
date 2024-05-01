@@ -1,0 +1,247 @@
+{
+  "count":"26",
+  "product":[
+    {
+      "id":1,
+      "image_url":"./images/product/product_1.png",
+      "title":"Wooden container Bowl",
+      "discount":96.00,
+      "price":120.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":2,
+      "image_url":"./images/product/product_2.png",
+      "title":"Euvira Rocking Chair",
+      "discount":90.00,
+      "price":110.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":3,
+      "image_url":"./images/product/product_3.png",
+      "title":"Set of 2 baskets",
+      "discount":230.00,
+      "price":250.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":4,
+      "image_url":"./images/product/product_4.png",
+      "title":"Tailored Fit Mesh-Panel",
+      "discount":67.00,
+      "price":80.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":5,
+      "image_url":"./images/product/product_5.png",
+      "title":"Rosmo Namino",
+      "discount":180.00,
+      "price":200.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":6,
+      "image_url":"./images/product/product_6.png",
+      "title":"Bottle With Wooden Cork",
+      "discount":270.00,
+      "price":290.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":7,
+      "image_url":"./images/product/product_7.png",
+      "title":"Hauteville Plywood Chair",
+      "discount":320.00,
+      "price":325.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":8,
+      "image_url":"./images/product/product_8.png",
+      "title":"Juicy Pendant Lamp",
+      "discount":350.00,
+      "price":380.00,
+      "add_cart":" + Add to Cart "
+    }
+  ],
+  "banner2":[
+    {
+      "image_url":"./images/banner2/banner-big-1.jpg",
+      "title1":"Products Accessories",
+      "title2":"Wooden container Bowl",
+      "price":"$96.00"
+    },
+    {
+      "image_url":"./images/banner2/banner-big-2.jpg",
+      "title1":"Products Clothing",
+      "title2":"Set of 2 baskets",
+      "price":"$230.00"
+    }
+
+  ],
+  "sale":[
+    {
+      "id":1,
+      "image_url":"./images/sale/product_10.png",
+      "title":"Tailored Fit Mesh-Panel",
+      "discount":67.00,
+      "price":80.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":2,
+      "image_url":"./images/sale/product_2.png",
+      "title":"Tailored Fit Mesh-Panel",
+      "discount":67.00,
+      "price":80.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":3,
+      "image_url":"./images/sale/product_7.png",
+      "title":"Tailored Fit Mesh-Panel",
+      "discount":67.00,
+      "price":80.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":4,
+      "image_url":"./images/sale/product_9.png",
+      "title":"Tailored Fit Mesh-Panel",
+      "discount":67.00,
+      "price":80.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":5,
+      "image_url":"./images/sale/product_8.png",
+      "title":"Tailored Fit Mesh-Panel",
+      "discount":67.00,
+      "price":80.00,
+      "add_cart":" + Add to Cart "
+    }
+  ],
+  "blog":[
+    {
+      "image_url":"./images/blog/blog-1.jpg",
+      "title":"Anteposuerit litterarum formas",
+      "name":"Shahnewaz Sakil",
+      "date":"September 14, 2023",
+      "pragraph":"Mirum est notare quam littera gothica, quam nunc putamus parum claram."
+    },
+    {
+      "image_url":"./images/blog/blog-1.jpg",
+      "title":"Anteposuerit litterarum formas",
+      "name":"Shahnewaz Sakil",
+      "date":"September 14, 2023",
+      "pragraph":"Mirum est notare quam littera gothica, quam nunc putamus parum claram."
+    },
+    {
+      "image_url":"./images/blog/blog-1.jpg",
+      "title":"Anteposuerit litterarum formas",
+      "name":"Shahnewaz Sakil",
+      "date":"September 14, 2023",
+      "pragraph":"Mirum est notare quam littera gothica, quam nunc putamus parum claram."
+    }
+  ], 
+   "shop":[
+    {
+      "id":1,
+      "image_url":"./images/product-shop/product_1.png",
+      "title":"Wooden container Bowl",
+      "discount":96.00,
+      "price":120.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":2,
+      "image_url":"./images/product-shop/product_2.png",
+      "title":"Euvira Rocking Chair",
+      "discount":90.00,
+      "price":110.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":3,
+      "image_url":"./images/product-shop/product_3.png",
+      "title":"Set of 2 baskets",
+      "discount":230.00,
+      "price":250.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":4,
+      "image_url":"./images/product-shop/product_4.png",
+      "title":"Tailored Fit Mesh-Panel",
+      "discount":67.00,
+      "price":80.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":5,
+      "image_url":"./images/product-shop/product_5.png",
+      "title":"Rosmo Namino",
+      "discount":180.00,
+      "price":200.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":6,
+      "image_url":"./images/product-shop/product_6.png",
+      "title":"Bottle With Wooden Cork",
+      "discount":270.00,
+      "price":290.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":7,
+      "image_url":"./images/product-shop/product_7.png",
+      "title":"Hauteville Plywood Chair",
+      "discount":320.00,
+      "price":325.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":8,
+      "image_url":"./images/product-shop/product_8.png",
+      "title":"Juicy Pendant Lamp",
+      "discount":350.00,
+      "price":380.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":9,
+      "image_url":"./images/product-shop/product_9.png",
+      "title":"Big sale canvas basket",
+      "discount":400.00,
+      "price":480.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":10,
+      "image_url":"./images/product-shop/product_10.png",
+      "title":"Haggar Men's Heather",
+      "discount":420.00,
+      "price":480.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":11,
+      "image_url":"./images/product-shop/product_11.png",
+      "title":"Cotton Twill Suit",
+      "discount":450.00,
+      "price":580.00,
+      "add_cart":" + Add to Cart "
+    },
+    {
+      "id":12,
+      "image_url":"./images/product-shop/product_12.png",
+      "title":"Big sale canvas basket",
+      "discount":480.00,
+      "price":590.00,
+      "add_cart":" + Add to Cart "
+    }
+  ]
+}

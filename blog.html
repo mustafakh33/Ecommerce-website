@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outstock - Clean, Minimal eCommerce Angular Template</title>
+  <!-- ============ Google font ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- ============ favicon ============ -->
+  <link rel="icon" href="images/favicon.ico">
+  <!-- =============== css file =============== -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- =============== Navbar =============== -->
+    <header class="header" id="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <!-- last links -->
+               <div class="d-flex align-items-center">
+                <div class="search space">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  search
+                </div>
+                <div class="cart space">
+                  <a href="cart.html" class="cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    cart
+                    (<span id="soppingCount" class="count">0</span>)
+                  </a>
+                </div>
+                <div class="button space">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>  
+    <!-- ===============  blog section =============== -->
+    <section class="blog">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text">
+                        <h1>blog</h1>
+                        <div class="d-flex justify-content-center">
+                            <a href="#">home</a>
+                            <span>/</span>
+                            <a href="#">blog</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- =============== blog area =============== -->
+     <section class="shop">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8">
+                    <!-- section one -->
+                    <div class="section-one">
+                        <div class="image">
+                            <img src="images/pageblog/blog-big-2.jpg" alt="">
+                        </div>
+                        <div class="texts">
+                            <h4>Hanging fruit to identify a ballpark</h4>
+                            <p>
+                                <span>By <a href="#" class="color">Naim Ahmed</a></span>
+                                <span>/ November 15, 2022</span>
+                            </p>
+                            <p class="p2">A Capitalize on low hanging fruit to identify
+                                 a ballpark value added activity to beta test.
+                                  Override the digital divide with additional clickthroughs from DevOps.
+                                   Nanotechnology immersion along the information highway will close the [...]
+                            </p>
+                            <a href="#" class="main-btn">read more</a>
+                        </div>
+                    </div>
+                    <!-- section two -->
+                    <div class="section-one">
+                        <div class="image">
+                            <img src="images/pageblog/blog-big-3.jpg" alt="">
+                        </div>
+                        <div class="texts">
+                            <h4>Anteposuerit litterarum formas.</h4>
+                            <p>
+                                <span>By <a href="#" class="color">John Smith</a></span>
+                                <span>/ September 14, 2023</span>
+                            </p>
+                            <p class="p2">A Capitalize on low hanging fruit to identify
+                                 a ballpark value added activity to beta test.
+                                  Override the digital divide with additional clickthroughs from DevOps.
+                                   Nanotechnology immersion along the information highway will close the [...]
+                            </p>
+                            <a href="#" class="main-btn">read more</a>
+                        </div>
+                    </div>
+                    <!-- section three -->
+                    <div class="section-one">
+                        <div class="image">
+                            <img src="images/pageblog/blog-big-4.jpg" alt="">
+                        </div>
+                        <div class="texts">
+                            <h4>The information highway will close</h4>
+                            <p>
+                                <span>By <a href="#" class="color">Mamun Ahmed</a></span>
+                                <span>/ November 15, 2022</span>
+                            </p>
+                            <p class="p2">A Capitalize on low hanging fruit to identify
+                                 a ballpark value added activity to beta test.
+                                  Override the digital divide with additional clickthroughs from DevOps.
+                                   Nanotechnology immersion along the information highway will close the [...]
+                            </p>
+                            <a href="#" class="main-btn">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 offset-xl-1">
+                    <!-- search -->
+                    <div class="searchs">
+                        <form action="#">
+                            <input type="text" placeholder="Search...">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <!-- product -->
+                    <div class="products">
+                        <h3>Product Categories</h3>
+                        <ul>
+                            <li  class="d-flex justify-content-between"> Accessories  <i class="fa-solid fa-chevron-right"></i></li>
+                            <li  class="d-flex justify-content-between"> Clothing  <i class="fa-solid fa-chevron-right"></i></li>
+                            <li  class="d-flex justify-content-between">  Men's   <i class="fa-solid fa-chevron-right"></i></li>
+                        </ul>
+                    </div>
+                    <!-- posts -->
+                   <div class="total-posts">
+                    <!-- main title -->
+                    <h3> Latest Posts </h3>
+                     <!-- =============== Latest Posts 1 =============== -->
+                     <div class="posts">
+                        <div class="d-flex align-items-center">
+                            <div class="image">
+                                <img src="images/pageblog/blog-ms-3.jpg" alt="">
+                            </div>
+                            <div class="texts">
+                                <h6> Override the digital </h6>
+                                <span> February 20, 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- =============== Latest Posts 2 =============== -->
+                    <div class="posts">
+                        <div class="d-flex align-items-center">
+                            <div class="image">
+                                <img src="images/pageblog/blog-ms-3.jpg" alt="">
+                            </div>
+                            <div class="texts">
+                                <h6> Override the digital </h6>
+                                <span> February 20, 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- =============== Latest Posts 3 =============== -->
+                    <div class="posts">
+                        <div class="d-flex align-items-center">
+                            <div class="image">
+                                <img src="images/pageblog/blog-big-5.jpg" alt="">
+                            </div>
+                            <div class="texts">
+                                <h6> Override the digital </h6>
+                                <span> February 20, 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                   <!-- Recent Comments -->
+                   <div class="recent">
+                    <h3>Recent Comments</h3>
+                    <div class="box d-flex">
+                        <div class="image">
+                            <img src="images/pageblog/avater-3.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h6>Salim Rana</h6>
+                            <p >Hi, this is a comment....</p>
+                            <span>on <span class="color"> Hello world!</span></span>
+                        </div>
+                    </div>
+                    <div class="box d-flex">
+                        <div class="image">
+                            <img src="images/pageblog/avater-3.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h6>Salim Rana</h6>
+                            <p >Hi, this is a comment....</p>
+                            <span>on <span class="color"> Hello world!</span></span>
+                        </div>
+                    </div>
+                   </div>
+                   <!-- archives -->
+                   <div class="archives">
+                    <h3> Archives </h3>
+                    <ul>
+                        <li><a href="#">December 2023</a></li>
+                        <li><a href="#"> November 2023</a></li>
+                        <li><a href="#"> September 2023</a></li>
+                        <li><a href="#">November 2022</a></li>
+                    </ul>
+                   </div>
+                   
+                   <!-- meta -->
+                   <div class="meta">
+                    <h3>Meta</h3>
+                    <ul>
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Entries RSS</a></li>
+                        <li><a href="#">Comments RSS</a></li>
+                        <li><a href="#">WordPress.org</a></li>
+                    </ul>
+                   </div>
+                </div>
+                <div class="col-12">
+                  <!-- icons -->
+                  <div class="basic-pagination">
+                    <ul class="d-flex">
+                      <li class="active"><a href="#">1</a></li>
+                      <li class="cursor-pointer"><a href="#">2</a></li>
+                      <li class="disabled"><a href="#"><i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- =============== footer =============== -->
+   <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="footer1">
+              <a class="logo" href="#"><img src="images/logo-2.png" alt=""></a>
+              <p>Outstock is a premium Templates theme with advanced admin module. It’s extremely customizable,
+                 easy to use and fully responsive and retina ready.</p>
+                 <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i> <span>Add: 1234 Heaven Stress, Beverly Hill, Melbourne, USA.</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope-open-text"></i> <span>Email: Contact@basictheme.com</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i> <span>Phone Number: (800) 123 456 789</span>
+                  </li>
+                 </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer2">
+              <h5>information</h5>
+              <ul>
+                <li>About Us</li>
+                <li>Careers</li>
+                <li>Delivery Inforamtion</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Condition</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer2">
+              <h5>Customer Service</h5>
+              <ul>
+                <li>Shipping Policy</li>
+                <li>Help & Contact Us</li>
+                <li>Returns & Refunds</li>
+                <li>Online Stores</li>
+                <li>Terms & Conditions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6">
+            <div class="footer__copyright">
+              <p>Copyright © <a  href="#">Outstock</a> all rights reserved. Powered by <a href="#">Theme_pure</a></p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-end">
+            <div class="social-media">
+              <ul class="d-flex justify-content-end">
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-behance"></i></li>
+                <li><i class="fa-brands fa-dribbble"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </footer>
+   <!-- button -->
+   <div class="fixed-button">
+    <button class="btn-fixed"><i class="fa-solid fa-arrow-turn-up"></i></button>
+   </div>
+   <!-- =============== js =============== -->
+   <script src="js/splide.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/pages/blog.js"></script>
+</body>
+</html>
